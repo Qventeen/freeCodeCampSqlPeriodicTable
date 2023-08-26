@@ -17,7 +17,6 @@ else
     CONDITION_FIELD="name"
     VALUE="'$1'"
   fi
-  #echo -e "\nCondition = $CONDITION_FIELD : value $VALUE\n"
   #get element data by condition field
   PSQL="psql -X -U freecodecamp -d periodic_table -t --no-align -c"
   
